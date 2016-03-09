@@ -14,16 +14,17 @@ author: Fábio Madeira
 # for a normal use at the base of the server change it to "/"
 baseurl: ""
 title: Vince DeVendra's Resume
-name: Vincent J. DeVendra
+name: Vince DeVendra
 email: vincedevendra@gmail.com
 email_full: mailto:vincedevendra@gmail.com
 github: vincedevendra
 twitter: vincedevendra
+medium: vincedevendra
 tel: +1 617 658 3036
 tel_full: tel:+16176583036
 google_maps: 'https://www.google.com/maps/place/Boston,+MA/@42.3135421,-71.1972437,11z/data=!3m1!4b1!4m2!3m1!1s0x89e3652d0d3d311b:0x787cbf240162e8a0'
-address: 9 Preston Rd.
-city: West Roxbury, MA 02132
+address:
+city: Boston, MA
 state:
 zip-code:
 country:

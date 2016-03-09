@@ -28,22 +28,22 @@
         <img src="{{ site.baseurl }}static/img/profile.jpg" class="me">
         <h1>{{ site.name }}</h1>
         <p>
-            <a href="{{ site.tel_full }}">{{ site.tel }}</a>
+        <a href="{{ site.email_full }}"><i class="fa fa-envelope"></i> Email</a><br/>
+            <a href="https://github.com/{{ site.github }}"><i class="fa
+                fa-github"></i> Github</a></br>
+            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa
+                fa-twitter"></i> Twitter</a></br>
+            <a href="https://medium.com/@{{ site.medium }}"><i class="fa
+                fa-medium"></i> Medium</a>
+        </p>
+        <p>
+        <a href="{{ site.tel_full }}"><i class="fa fa-phone"></i> {{ site.tel }}</a>
         </p>
         <address>
-            <a href="{{ site.google_maps }}">
-                {{ site.address }}<br/>
+          <a href="{{ site.google_maps }}"><i class="fa fa-location-arrow"></i>
                 {{ site.city }}<br/>
-                {{ site.state }} {{ site.zip-code}}<br/>
-                {{ site.country }}<br/>
-
             </a>
         </address>
-        <p>
-            <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
-        </p>
     </header>
     <div class="thirteen columns clearfix">
 
